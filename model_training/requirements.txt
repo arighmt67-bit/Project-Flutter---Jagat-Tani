@@ -1,0 +1,9 @@
+tensorflow>=2.10.0
+tensorflow-datasets
+tensorflow-hub
+numpy
+pandas
+scikit-learn
+matplotlib
+opencv-python
+albumentations

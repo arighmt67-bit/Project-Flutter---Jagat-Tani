@@ -1,0 +1,37 @@
+name: jagat_tani
+description: "Aplikasi Flutter berbasis Machine Learning untuk deteksi penyakit daun padi dan rekomendasi pemupukan berbasis cuaca."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  http: ^1.2.1
+  flutter_dotenv: ^5.1.0
+  image: ^4.0.17
+  tflite_flutter: ^0.11.0
+  camera: ^0.11.2
+  image_picker: ^1.2.0
+  image_cropper: ^11.0.0
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  firebase_core: ^2.27.1
+  google_generative_ai: ^0.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/model_padi.tflite
+    - assets/models/labels.txt
