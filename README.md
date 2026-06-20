@@ -1,6 +1,6 @@
 # JagatTani
 
-JagatTani is a capstone project for agricultural technology, featuring:
+JagatTani is a project for agricultural technology, featuring:
 - AI-based Paddy Disease Classification.
 - Fertilizer Recommendation System.
 - Weather recommendation service.
